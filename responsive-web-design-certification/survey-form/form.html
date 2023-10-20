@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">A Boring Survey</h1>
+      <p id="description">Just a regular boring survey</p>
+    </header>
+    <form id="survey-form">
+      <fieldset>
+      <section>
+      <label id="name-label">Name: <input class="textInput" id="name" type="text" placeholder="Enter your name" required /></label>
+      </section>
+      <section>
+      <label id="email-label">E-mail: <input id="email" type="email" placeholder="Enter your Email" required class="textInput" />
+      </section>
+      <section>
+      <label id="number-label">Age (optional): <input id="number" type="number" min="1" max="120" placeholder="Enter your age" class="textInput" />
+      </section>
+      <section>
+      <label>How boring are you?
+          <select id="dropdown" class="dropdown">
+            <option selected="true" disabled="disabled">(select boring level)</option>
+            <option>not boring</option>
+            <option>kinda boring</option>
+            <option>moderately boring</option>
+            <option>boring (period)</option>
+            <option>boring connoisseur</option>
+          </select>
+        </label>
+        </section>
+        <section>
+        <label>Are you boring on purpose?</label>
+        <label><input type="radio" name="purposely-boring" value="yes" /> Yes</label>
+        <label><input type="radio" name="purposely-boring" value="no" /> No</label>
+        </section>
+        <section>
+        <label>What boring activities do you do daily?</label>
+        <input id="activity1" type="checkbox" value="Sleeping" /><label class="checkboxLabel"> Sleeping</label><br>
+        <input id="activity1" type="checkbox" value="Studying" /><label class="checkboxLabel"> Studying</label><br>
+        <input id="activity1" type="checkbox" value="Chores" /><label class="checkboxLabel"> Chores</label><br>
+        <input id="activity1" type="checkbox" value="Driving in Traffic" /><label class="checkboxLabel"> Driving in traffic</label><br>
+        <input id="activity1" type="checkbox" value="Fishing" /><label class="checkboxLabel"> Fishing</label><br>
+        </section>
+        <section>
+        <label>Describe how you feel when doing these boring activities: </label>
+        <textarea placeholder="blah blah boring blah..."></textarea>
+        </section>
+      </fieldset>
+      <fieldset>
+        <input id="submit" type="submit" value="Submit" class="submitButton">
+      </fieldset>
+    </form>
+  </body>
+</html> 

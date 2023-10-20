@@ -1,0 +1,108 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Original Apple iPhone</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <header>
+      <h1 id="title">The Original Apple iPhone</h1>
+      <p>The first modern smartphone</p>
+    </header>
+    <main id="main">
+      <div id="img-div" class="card">
+        <img id="image" src="https://9to5mac.com/wp-content/uploads/sites/6/2022/01/steve-jobs-og-iphone.jpg?quality=82&strip=all&w=1600">
+        <div id="img-caption">The original iPhone being introduced in Apple's 2007 keynote event</div>
+      </div>
+      <section id="tribute-info" class="card">
+        <h2>The main innovations of the original iPhone</h2>
+        <div class="line"></div>
+        <ul>
+          <li>Capacitive touch screen</li>
+          <li>Multi-touch support</li>
+          <li>4:3 Full screen</li>
+          <li>Virtual Keyboard</li>
+        </ul>
+        <div class="line"></div>
+        <p>To know more about the history of the iPhone, check out its Wikipedia entry <a id="tribute-link" href="https://en.wikipedia.org/wiki/IPhone_(1st_generation)" target="_blank">here</a>.</p>
+      </section>
+    </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  font-family: helvetica;
+}
+
+#title, header > p  {
+  margin: 10px;
+  text-align: center;
+}
+
+html  {
+  background-color: #28282B;  
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+#img-div  {
+  text-align: center;
+}
+
+.card {
+  min-width: 300px;
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+img {
+  display: block;
+}
+
+#image  {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+#img-caption  {
+  margin: 20px auto 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: lightgrey;
+  margin: 10px auto;
+}
+
+#tribute-info li  {
+  max-width: 200px;
+  margin: 10 auto;
+}
+
+#tribute-info p  {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+** end of undefined **
+
